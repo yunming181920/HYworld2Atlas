@@ -1,0 +1,29 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# experiment outputs & model weights (never commit)
+gs_bridge/out/
+checkpoints/
+resources/
+*.ckpt
+*.safetensors
+*.pth
+*.bin
+*.npz
+*.pt
+
+# datasets
+datasets/
+
+# editors / os
+.idea/
+.vscode/
+.DS_Store
+
+# ipc sockets
+/tmp/gs_bridge_*
